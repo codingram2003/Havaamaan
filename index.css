@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.head {
+  color: black;
+  font-size: 100;
+  font-weight: bold;
+}
+
+#butt {
+  height: 23px;
+  width: 70px;
+  margin-top: 0px;
+  position: relative;
+  background-color: lightblue;
+  text-emphasis-color: red;
+}
+
+.head {
+  position: relative;
+  font-size: 28px;
+  margin-top: 30px;
+  color: white;
+}
+#city1 {
+  margin-top: 50px;
+}
+
+.out {
+  position: relative;
+  font-size: 26px;
+  color: greenyellow;
+  font-weight: bold;
+}
+#intro {
+  position: relative;
+  font-size: 50px;
+  transform: translateX(-3%);
+}
+#lintro {
+  position: relative;
+  font-size: 20px;
+  margin-top: 10px;
+  transform: translateY(-150%);
+}
+#emp {
+  position: relative;
+  color: lightcoral;
+  font-size: 30px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.custom-field {
+  position: relative;
+  font-size: 14px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+  --field-padding: 12px;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: var(--field-padding);
+  border-radius: 3px;
+  width: 250px;
+  height: 35px;
+  outline: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: var(--field-padding);
+  width: calc(100% - (var(--field-padding) * 2));
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 4px;
+  line-height: 100%;
+  transform: translateY(-50%);
+  color: rgb(94, 91, 91);
+  font-size: 20px;
+  transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.custom-field input.dirty + .placeholder,
+.custom-field input:focus + .placeholder,
+.custom-field input:not(:placeholder-shown) + .placeholder {
+  top: -25px;
+  font-size: 20px;
+  color: #222;
+}
+.custom-field.one input {
+  background: #e4dde4;
+  border: transparent;
+  transition: border-color 0.3s ease;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.custom-field.one input + .placeholder {
+  left: 8px;
+  padding: 0 5px;
+}
+.custom-field.one {
+  position: relative;
+}
+#logo {
+  max-width: 40px;
+  max-height: 40px;
+  position: relative;
+  margin-left: 280px;
+  margin-top: -100px;
+  margin-bottom: 25px;
+}

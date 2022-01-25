@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>city-weather</title>
+    <script src="./index.js"></script>
+     
+  </head>
+  <body style="text-align:center;" id="body">
+    <video autoplay muted loop id="myVideo">
+      <source src="https://res.cloudinary.com/dhnlpz7fp/video/upload/v1642983249/storm_-_40581_Original_c6zann.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <h1 id="intro">Havaamaan</h1>
+    <img id="logo" src="https://res.cloudinary.com/dhnlpz7fp/image/upload/v1642997169/pngfind.com-storm-png-716056_fw2imw.png">
+    <p id="lintro">Know the mood of cities</p>
+  
+
+    
+    
+    <label class="custom-field one">
+      <input type="text" id="city" placeholder=" "/>
+      <span class="placeholder">Enter city name</span>
+    </label>
+    <button type="button" id="butt" onclick="func()" value="Display">Search</button>
+    
+    <h3 class="head" id="city1"></h3>
+    <p class="out" id="cityn"></p><br>
+      
+    <h3 class="head" id="coun1"></h3>
+    <p class="out" id="coun"></p><br>
+    <h3 class="head" id="temp1"></h3>
+    <p class="out" id="temp"></p><br>
+    <h3 class="head" id="weat1"></h3>
+    <p class="out" id="weat"></p><br>
+    <h3 id="emp"></h3>
+
+      
+    </div>
+  </body>
+</html>
